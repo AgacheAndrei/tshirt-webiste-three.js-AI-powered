@@ -1,0 +1,34 @@
+npm create vite@latest -- --template react client
+cd client
+npm install three @react-three/fiber @react-three/drei maath valtio react-color framer-motion
+----Am intrat pe site-ul celor de la tailwind si am urmat pasii de instalare pt vite
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+----Am modificat fisierul tailwind.config.js
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+----
+npm run dev
+----
+extensia es7 + react 
+rafce -- shortcut pt a crea un component in react
+
+folder server
+npm init -y 
+---
+in package.json 
+"scripts": {
+    "start": "nodemon index"
+  },
+"type":"module",
+---
+npm install cloudinary cors dotenv express mongoose nodemon openai
